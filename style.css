@@ -40,20 +40,20 @@ a {
   border: 2px solid #2B28EE;
   font-size: .8em;
   color:#2B28EE;
-  /*margin: 0 50% 0 5%;*/
-  padding: 5% 0 5% 4%;
+  margin: 0 0 0 5%;
+  padding: 5% 0 15% 15%;
 }
 .text-03>h2 {
   padding: 0 0 4% 0;
 }
 .text-04{
-  margin: 10% 0 0 10%;
+  margin: 20% 0 0 10%;
   color:#2B28EE;
   font-size: .8em;
 }
 .ig-image {
   max-width: 50%;
   position: absolute;
-  top:60%;
+  top:46%;
   right:5%;
 }
