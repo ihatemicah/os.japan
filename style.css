@@ -1,0 +1,59 @@
+/*Top Right Bottom Left*/
+
+/* Mobile First Code */
+hr {
+  width:70%;
+  margin:0 0 5% 10%;
+  border-color:#111111;
+}
+h1 {
+  font-size: 2em;
+}
+h1:nth-of-type(1){
+  margin: 0 0 10% 0;
+}
+h2{
+  font-weight: bold;
+}
+
+a {
+  color:inherit;
+}
+
+  /*------------------------*/
+
+.logo {
+  margin: 4% 0 0 4%;
+}
+.text-01{
+  margin: 0 0 0 10%;
+  color: #2B28EE;
+}
+.text-02{
+  margin: 0 0 0 10%;
+  color: #2B28EE;
+  font-size: .8em;
+  width: 74%;
+}
+
+.text-03{
+  border: 2px solid #2B28EE;
+  font-size: .8em;
+  color:#2B28EE;
+  /*margin: 0 50% 0 5%;*/
+  padding: 5% 0 5% 4%;
+}
+.text-03>h2 {
+  padding: 0 0 4% 0;
+}
+.text-04{
+  margin: 10% 0 0 10%;
+  color:#2B28EE;
+  font-size: .8em;
+}
+.ig-image {
+  max-width: 50%;
+  position: absolute;
+  top:60%;
+  right:5%;
+}
