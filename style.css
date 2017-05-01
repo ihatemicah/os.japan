@@ -51,11 +51,12 @@ a {
   margin: 20% 0 0 10%;
   color:#2B28EE;
   font-size: .8em;
+  font-weight: bold;
 }
 .ig-image {
   max-width: 50%;
   position: absolute;
-  top:59%;
+  top:70%;
   right:5%;
   z-index: -1
 }
