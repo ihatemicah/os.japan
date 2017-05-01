@@ -41,7 +41,8 @@ a {
   font-size: .8em;
   color:#2B28EE;
   margin: 0 0 0 5%;
-  padding: 5% 0 15% 15%;
+  padding: 5% 0 5% 5%;
+  width: 50%;
 }
 .text-03>h2 {
   padding: 0 0 4% 0;
@@ -54,6 +55,7 @@ a {
 .ig-image {
   max-width: 50%;
   position: absolute;
-  top:46%;
+  top:59%;
   right:5%;
+  z-index: -1
 }
