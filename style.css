@@ -7,6 +7,9 @@
   Create iPhone 5 - Mobile Breakpoints.
 */
 /* Mobile First Code */
+html {
+  transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
 hr {
   width:85%;
   margin:0 0 0% 6%;
@@ -236,7 +239,7 @@ p {
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    
+
     hr {
       width:70%;
       margin:0 0 5% 10%;
