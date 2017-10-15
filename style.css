@@ -81,6 +81,30 @@ p {
     animation: blink 0.7s infinite;
 }
 
+.impossible-header {
+  font-size: .8rem;
+  width: 50%;
+  margin: 0 0 0 10%;
+  color: #2B28EE;
+}
+
+.impossible-description {
+  font-size: .6rem;
+  color: #2B28EE;
+  margin: 2% 0 0 10%;
+}
+
+.impossible-list {
+  color: #2B28EE;
+  margin: 0 0 0 20%;
+}
+
+.styled-link{
+  color: #0400FF;
+  text-decoration: underline ;
+}
+
+
 
  /*iphone 6+ breakpoints*/
 @media only screen
