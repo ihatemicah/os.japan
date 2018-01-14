@@ -52,6 +52,7 @@ p {
 
 .text-03{
   border: 4px solid #2B28EE;
+  border-radius: 3px;
   font-size: 1em;
   color:#2B28EE;
   margin: 0 0 0 15%;
@@ -110,9 +111,39 @@ p {
   color: #0400FF;
   text-decoration: underline ;
 }
+/* Email Newsletter  */
+.osinput{
+  width: 50%;
+  margin: auto;
+  border-color: #2B28EE;
+  border: 4px solid #2B28EE;
+  padding: 3%;
+}
+.osinput:focus {
+  border-color: #7876F4;
+}
+.osinput:hover{
+  border-color: #7876F4;
+}
+.osinput:active{
+  border-color: #7876F4;
+}
+.formcontainer{
+  margin: 0 0 0 15%;
+}
 
+.label{
+  color: #2B28EE;
+  font-weight: bold;
+}
 
-
+::-webkit-input-placeholder {
+  color: #2B28EE;
+  opacity: .5;
+}
+:focus::-webkit-input-placeholder {
+  opacity: .5;
+}
  /*iphone 6+ breakpoints*/
 @media only screen
   and (min-device-width: 414px)
