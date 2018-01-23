@@ -3,8 +3,9 @@
 
 
 /*TODO :
-  Create iphone 6 - Mobile breakpoints.
-  Create iPhone 5 - Mobile Breakpoints.
+  Create Laptop MDPI breakpoints.
+  Create iPhone X breakpoints.
+  Create iPad Mini breakpoints.
 */
 /* Mobile First Code */
 html {
@@ -71,8 +72,8 @@ p {
 .ig-image {
   max-width: 30%;
   position: absolute;
-  top:70%;
-  right:25%;
+  top:60%;
+  right:16%;
   z-index: -1
 }
 .typed-cursor{
@@ -143,6 +144,29 @@ p {
 }
 :focus::-webkit-input-placeholder {
   opacity: .5;
+}
+
+.button {
+  /* padding: 20% 8% 20% 8%; */
+  margin: 2% 0 0 0;
+}
+/* Overriding default CSS  */
+
+.button.button{
+line-height: 0;
+padding: 2.5% 8% 2.5% 8%;
+}
+
+.button.is-link {
+  border: 4px solid #2B28EE;
+  color: #2B28EE;
+  text-decoration: none;
+}
+
+.button.is-link:hover{
+  border: 4px solid #7876F4;
+  color: #7876F4;
+  background-color: #fff;
 }
  /*iphone 6+ breakpoints*/
 @media only screen
@@ -231,7 +255,28 @@ p {
       margin: 2% 0 0 10%;
     }
 
+  /* Start of email subscription box */
+
+  .formcontainer{
+    margin: 0 0 0 5%;
+  }
+
+  .osinput {
+    width: 100%;
+    margin: auto;
+    border-color: #2B28EE;
+    border: 4px solid #2B28EE;
+    padding: 5%;
+  }
+
+  .button.button {
+  line-height: 0;
+  padding: 6.5% 42% 6.5% 43%;
+  }
+
 }
+
+/* Start of mobile breakpoints  */
 
 @media only screen
   and (min-device-width: 375px)
